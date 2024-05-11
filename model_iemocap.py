@@ -9,9 +9,9 @@ from keras.layers import Input, Bidirectional, GRU, Masking, Dense, Dropout, Tim
 # sklearn.metrics里的包
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
-config = tf.ConfigProto()
-config.gpu_options.allow_growth = True
-sess = tf.Session(config=config)
+# config = tf.ConfigProto()
+# config.gpu_options.allow_growth = True
+# sess = tf.Session(config=config)
 
 
 import numpy as np
